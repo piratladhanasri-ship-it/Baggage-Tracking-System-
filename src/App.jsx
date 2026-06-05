@@ -5,7 +5,7 @@ import Signup from "./pages/Signup";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Baggage-Tracking-System-">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App;
+
